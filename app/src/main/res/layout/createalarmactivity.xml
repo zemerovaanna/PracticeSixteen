@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green1">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text18"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            />
+
+
+        <ImageButton
+
+            android:id="@+id/imageView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+android:layout_marginLeft="43dp"
+            android:onClick="back2"
+            android:layout_gravity="end"
+            android:background="@drawable/button1"
+            android:src="@drawable/arrrowbsadf" />
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginEnd="20dp"
+
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+
+                android:id="@+id/spinner"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/edit_text"
+                android:gravity="center"
+                android:hint="@string/text29"
+                android:textColorHint="@color/grey" />
+
+            <Spinner
+
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:background="@drawable/edit_text"
+                android:gravity="center"
+                android:hint="@string/text30"
+                android:textColorHint="@color/grey" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/text37"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text38"
+
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сходить погулять "
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey"
+                    android:id="@+id/text1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text39"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Пойти на работу"
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text40"
+                    android:textSize="16dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отвезти собаку в больницу"
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text41"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Приготовить еду на неделю "
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check5"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text42"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Почистить компьютер"
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check6"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text43"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Дел нет "
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CheckBox
+                    android:id="@+id/check7"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/checkbf"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text44"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Отдыхать"
+                    android:visibility="invisible"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/grey" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="312dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_text3"
+            android:gravity="center"
+            android:onClick="navigator"
+            android:text="@string/text45"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

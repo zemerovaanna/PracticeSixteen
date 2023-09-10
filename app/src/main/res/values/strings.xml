@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Менчиндайзер</string>
+    <string name="text9">Добавить задачу</string>
+    <string name="text18">Добавить будильник</string>
+    <string name="text22">Настройки</string>
+    <string name="text23">Регистрация</string>
+    <string name="text24">Имя пользователя</string>
+    <string name="text25">Адрес электронной почты</string>
+    <string name="text26">Пароль</string>
+    <string name="text27">Регистрация</string>
+    <string name="text28">Заголовок задачи</string>
+    <string name="text29">16:30</string>
+    <string name="text30">14.01.21</string>
+    <string name="text31">Описание задачи</string>
+    <string name="text32">Удалить задачу</string>
+
+    <string name="text34">Изменить задачу</string>
+    <string name="text35">Добавить задачу</string>
+    <string name="text37">Повторить каждый</string>
+    <string name="text38">Понедельник</string>
+    <string name="text39">Вторник</string>
+    <string name="text40">Среда</string>
+    <string name="text41">Четверг</string>
+    <string name="text42">Пятница</string>
+    <string name="text43">Суббота</string>
+    <string name="text44">Воскресенье</string>
+    <string name="text45">Создать будильник</string>
+    <string name="text48">Профиль пользователя</string>
+    <string name="date">Дата и время</string>
+    <string name="zvuk">Настройки звука</string>
+    <string name="obnova">Проверить обновления</string>
+    <string name="list">List</string>
+    <string name="alarm">Alarm</string>
+    <string name="calik">Calendar</string>
+    <string name="seting">Settings</string>
+</resources>

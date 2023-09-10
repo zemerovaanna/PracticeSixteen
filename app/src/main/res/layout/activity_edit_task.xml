@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+android:layout_marginLeft="15dp"
+                android:text="@string/text34"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:onClick="back"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button1"
+                android:src="@drawable/arrrowbsadf" />
+
+        </LinearLayout>
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <LinearLayout
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+         android:layout_marginLeft="15dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:background="@drawable/edit_text"
+                android:hint="@string/text28"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/simple_spinner"
+                    android:layout_width="165dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/edit_text"
+                    android:hint="@string/text29"
+                    android:layout_marginLeft="15dp"
+                    android:textColorHint="@color/grey" />
+
+                <Spinner
+                    android:id="@+id/simple_spinner2"
+                    android:layout_width="165dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:autofillHints=""
+                    android:background="@drawable/edit_text"
+                    android:gravity="center"
+                    android:hint="@string/text30"
+                    android:textColorHint="@color/grey" />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text"
+                android:gravity="top"
+                android:hint="@string/text31"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/grey" />
+        </LinearLayout>
+    </TableRow>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="250dp"
+
+            android:layout_marginEnd="20dp"
+
+
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="312dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text2"
+                android:text="@string/text32"
+                android:id="@+id/del_zad"
+                android:onClick="del_zad"
+                android:layout_marginLeft="40dp"
+                android:textColor="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="312dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/edit_text3"
+                android:text="@string/text34"
+                android:layout_marginStart="40dp"
+                android:id="@+id/edit_zad"
+                android:onClick="edit_zad"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+</TableLayout>
